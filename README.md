@@ -23,3 +23,13 @@
   <li>Debris</li>
 </ol>
 <p> After annotating these classes, the dataset was converted into COCO format using <a href="https://roboflow.com/">RoboFlow</a>. We also used RoboFlow to generate augmentations and further resized the images to create another dataset with the images resized to a square resolution of 416x416.</p>
+<hr>
+<h3> The duration of this research project was only 3 weeks and this includes dataset preparation and model training. The trained model that was tested and demonstrated in the paper only arrived at 20k iterations using the <a href="https://colab.research.google.com/">free Google Colab kernel</a>.</h3>
+<p> We recommend a longer training time, a better kernel, and a wider dataset for better results. 
+<hr>
+<h3> Large Files Download: </h3>
+<ul>
+  <li><a href="https://drive.google.com/drive/folders/1F3om5nbZL0YEzcy87pkxB_pSH3_ahavA?usp=sharing">Intramuros Dataset (480p)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/1apuafVWrlzHVueBqXyXRL63XtC-P7rR2?usp=sharing">Intramuros Dataset (416^2+Augmented)</a></li>
+  <li><a href="https://drive.google.com/file/d/1-2uH0ZQCz8ZXHofBZq3QQxdPHQMWOTwW/view?usp=sharing">PyTorch Model (20k iterations)</a></li>
+</ul>
